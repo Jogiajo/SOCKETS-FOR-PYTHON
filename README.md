@@ -14,7 +14,7 @@ remoteServer    = input("Enter a remote host to scan: ")
 remoteServerIP  = socket.gethostbyname(remoteServer)
 
 # Print a nice banner with information on which host we are about to scan
-print "-" * 60
+print( "-" * 60)
 print ("Please wait, scanning remote host", remoteServerIP)
 print ("-" * 60)
 
